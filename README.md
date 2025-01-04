@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/9113740/201498864-2a900c64-d88f-4ed4-b5cf-770bcb57e1f5.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/9113740/201498152-b171abb8-9225-487a-821c-6ff49ee48579.png">
-</picture>
+![cover](https://user-images.githubusercontent.com/9113740/201498864-2a900c64-d88f-4ed4-b5cf-770bcb57e1f5.png)
 
 <div align="center"><strong>React Admin Dashboard Starter Template With Shadcn-ui</strong></div>
 <div align="center">Built with the Vite + React Ts</div>
@@ -41,8 +38,13 @@ This is a starter template using the following stack:
 
 Follow these steps to clone the repository and start the development server:
 
-- `git clone https://github.com/Kiranism/react-shadcn-dashboard-starter.git`
-- `npm install`
-- `npm run dev`
+- `git clone https://github.com/neil-mando/react-shadcn-dashboard-starter.git`
+- `pnpm install`
+- `pnpm dev`
 
-You should now be able to access the application at http://localhost:5173.
+You should now be able to access the application at http://localhost:5173
+
+## Dockerize a React Vite application
+
+- `docker build -t vite-react-dashboard .`
+- `docker run -p 8080:8082 vite-react-dashboard`
